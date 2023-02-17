@@ -12,7 +12,7 @@ pygame.init()
 # Criamos a janela com título Figuras e texto
 janela = pygame.display.set_mode((500, 400))
 pygame.display.set_caption('Figuras e Texto')
-# Preenchendo o fundo da janela com a cor branca
+# Preenchendo o fundo da janela com a cor brancada sd
 janela.fill(BRANCO)
 # Trabalhando com texto
 fonte = pygame.font.Font(None, 48)
