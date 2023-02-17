@@ -33,10 +33,10 @@ pygame.init()
 janela = pygame.display.set_mode((LARGURAJANELA, ALTURAJANELA))
 pygame.display.set_caption('Animação')
 # criando as figuras
-f1 = {'objRect': pygame.Rect(300, 80, 40, 80), 'cor': VERMELHO, 'vel': [0, -5], 'forma': 'ELIPSE'}
-f2 = {'objRect': pygame.Rect(200, 200, 20, 20), 'cor': VERDE, 'vel': [5, 5], 'forma': 'ELIPSE'}
-f3 = {'objRect': pygame.Rect(100, 150, 60, 60), 'cor': AZUL, 'vel': [-5, 5], 'forma': 'RETANGULO'}
-f4 = {'objRect': pygame.Rect(200, 150, 80, 40), 'cor': AMARELO, 'vel': [5, 0], 'forma': 'RETANGULO'}
+f1 = {'objRect': pygame.Rect(300, 80, 40, 80),  'cor': VERMELHO, 'vel': [0, -5], 'forma': 'ELIPSE'}
+f2 = {'objRect': pygame.Rect(200, 200, 20, 20), 'cor': VERDE,    'vel': [5, 5], 'forma': 'ELIPSE'}
+f3 = {'objRect': pygame.Rect(100, 150, 60, 60), 'cor': AZUL,     'vel': [-5, 5], 'forma': 'RETANGULO'}
+f4 = {'objRect': pygame.Rect(200, 150, 80, 40), 'cor': AMARELO,  'vel': [5, 0], 'forma': 'RETANGULO'}
 figuras = [f1, f2, f3, f4]
 deve_continuar = True
 # loop do jogo
